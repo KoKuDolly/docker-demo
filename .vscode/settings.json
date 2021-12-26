@@ -1,0 +1,29 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  //   "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnType": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnType": true
+  },
+  // esbenp.prettier-vscode 需要 最新版本 prettier 配合
+  "prettier.enable": true,
+  "prettier.requireConfig": false,
+  "prettier.ignorePath": ".prettierignore",
+  //   "prettier.configPath": "~/.prettierrc.js",
+  //   "prettier.prettierPath": ""
+  //   "prettier.resolveGlobalModules": false
+  //   "prettier.documentSelectors": [] // 全局模式列表，列出 自定义的 文档选择器（自定义扩展名）
+  //   "prettier.useEditorConfig": true
+  //   "prettier.withNodeModules": false
+  "yaml.format.enable": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true
+}
