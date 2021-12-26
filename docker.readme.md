@@ -1,3 +1,5 @@
+[toc]
+
 # docker for nodejs
 
 ## build images
@@ -283,3 +285,17 @@ build for test
 ```sh
 docker build -t node-docker --target test .
 ```
+
+## Configure CI/CD
+
+[参考链接](https://docs.docker.com/language/nodejs/configure-ci-cd/)
+
+## Deploy app
+
+[参考链接](https://docs.docker.com/language/nodejs/deploy/)
+
+### Docker and Azure ACI
+
+### DOker and AWS ECS
+
+### Kubernetes
